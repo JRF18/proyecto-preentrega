@@ -63,7 +63,17 @@ header nav ul li a {
 
 
 /*---------MAIN----------*/
-
+.hero {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/bg-modelo-camara-.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    text-align: center; 
+}
 .hero h2 {
     color: aliceblue;
     font-size: 34px;
@@ -77,18 +87,7 @@ main section img {
     width: 250px;
 }
 
-.hero {
-    width: 100%;
-    height: 70vh;
-    background-image: url(../img/bg-modelo-camara-.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    align-items: center;
-    text-align: center;
-    
-}
+
 
 body section p {
     color: aliceblue;
@@ -189,10 +188,9 @@ body main h4 {
     text-align: center;
     color: orangered;
     background-color: black;
-
 }
 
-body main h7 {
+body main h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
