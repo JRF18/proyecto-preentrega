@@ -65,7 +65,7 @@ header nav ul li a {
 /*---------MAIN----------*/
 .hero {
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     background-image: url(../img/bg-modelo-camara-.jpg);
     background-position: center;
     background-size: cover;
@@ -89,12 +89,14 @@ main section img {
 
 
 
-body section p {
+body main section p {
     color: aliceblue;
     font-size: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 25px;
-    padding: 20px;
+    padding: 90px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 body main section img {
@@ -125,13 +127,17 @@ header nav ul li a:hover {
 }
 
 /* CLASS */
+    
+
 .filmacion div{
     height: 100%;
+    width: 100%;
     background-image: url(../img/portada\ 2.jpg);
     display: flex;
-    justify-content: space-evenly;
-    text-align: center; 
-    padding: 20px;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
 }
 
 
@@ -140,6 +146,7 @@ header nav ul li a:hover {
     justify-content: space-around;
     background-image: url(../img/fondo\ negro.jpg);
     padding: 10px;
+    flex-wrap: wrap;
 
 }
 
@@ -149,7 +156,6 @@ header nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 450px;
-    grid-template-areas: ;
     gap: 10px;
     background-color: rgb(255, 69, 0);
     padding: 3px;
@@ -161,6 +167,7 @@ header nav ul li a:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    flex-wrap: wrap;
 
 }
 
@@ -255,6 +262,7 @@ main form div {
 
 footer {
     background-image: url(../img/fondo\ negro.jpg)
+    
 }
 
 
@@ -275,6 +283,7 @@ footer div a img {
     height: 100px;
     position: center;
     margin: 18px;
+    flex-wrap: wrap;
 }
 
 .creando{
@@ -288,4 +297,57 @@ footer img {
     height: 200px;
     position: relative;
     left: 40%;
+}
+
+/*------MEDIA QUERIES------*/
+
+@media screen and (max-width:1200px){
+    .grid-galeria{
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 220px;
+
+    }
+    .grid-item{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .img-8{
+        grid-column: span 2;
+    }
+}
+
+
+@media screen and (max-width:560px){
+    .grid-galeria{
+        grid-template-columns:1fr;   
+    }
+
+    .grid-item{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+}
+
+@media screen and (max-width:1390px){
+    header{
+        flex-direction: column;
+    }
+    .whatsapp{
+        display: none;
+    }
+    
+    .hero p{
+        font-size: 50px;
+    }
+    
+    .filmacion div{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer div{
+        flex-direction: column;
+    }
 }
