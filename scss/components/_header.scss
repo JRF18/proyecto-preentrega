@@ -1,0 +1,40 @@
+header{
+    background-image: url(../img/bg-fondo.jpg);
+    position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    img{
+        width: 500px;
+        height: 250px;
+        display: inline-block;
+    }
+    h1{
+        color: rgb(255, 69, 00);
+        font-size: 60px;
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        span {
+            color: rgb(75, 216, 251);
+        }
+    }
+    nav{
+        ul{
+            list-style: none;
+            font-size: 36px;
+            margin: 5px;
+            li{
+                display: inline-block;
+                margin: 15px;
+                a{
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+            }
+        }
+    }
+}
