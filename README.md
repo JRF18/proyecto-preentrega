@@ -1,9 +1,11 @@
 <h1 align="center">Hi 👋, I'm Junior</h1>
-<h3 align="center">Web development student from Uruguay</h3>
+<h3 align="center">Web development student from Uruguay my first proyect is JRFilms</h3>
 
-- 🔭 I’m currently working on **JRFilms**
+- 🔭 I’m currently working on **Beyond incorporating new skills in web development with html and css, my main goal is to create my first website to make myself known as a freelance videographer. I am dedicated to audiovisual production independently. My idea is to have several platforms for potential clients to reach me and need my services and thus fulfill my dreams of being able to travel, meet me and learn by working for clients around the world. ms**
 
 - 🌱 I’m currently learning **Web development**
+
+- 📫 How to reach me **doble.com.js@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
