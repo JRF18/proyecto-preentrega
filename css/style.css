@@ -93,9 +93,6 @@ body main section p {
 
 main section img {
     width: 250px;
-}
-
-body main section img {
     width: 450px;
     height: 600px;
     box-shadow: 1px 1px 1px 1px rgb(255, 69, 0);
@@ -141,6 +138,13 @@ footer div img:hover {
     padding: 35px;
 }
 
+body main h4 {
+    font-size: 50px;
+    text-align: center;
+    color: orangered;
+    background-color: black;
+}
+
 
 .videos {
     display: flex;
@@ -148,6 +152,51 @@ footer div img:hover {
     background-image: url(../img/bg-fondo.jpg);
     padding: 10px;
     flex-wrap: wrap;
+}
+
+body main section div {
+    display: inline;
+}
+
+main form div {
+    width: 100%;
+    height: 100%;
+}
+
+
+.escribinos {
+    font-size: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+    background-image: url(../img/bg-fondo.jpg);
+    padding: 10px;
+}
+
+.correo {
+    position: relative;
+    left: 1px;
+}
+
+.boton {
+    font-size: 25px;
+    margin: 2px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 100px;
+    right: 25px;
+}
+
+.whatsapp img {
+    width: 100px;
 }
 
 .grid-galeria {
@@ -185,13 +234,6 @@ footer div img:hover {
     grid-row: span 2;
 }
 
-body main h4 {
-    font-size: 50px;
-    text-align: center;
-    color: orangered;
-    background-color: black;
-}
-
 body main h3 {
     display: flex;
     flex-direction: column;
@@ -200,57 +242,6 @@ body main h3 {
     color: orangered;
     background-color: black;
 }
-
-
-
-body main section div {
-    display: inline;
-}
-
-main form div {
-    width: 100%;
-    height: 100%;
-}
-
-
-.escribinos {
-    font-size: 25px;
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
-    font-size: 20px;
-    background-image: url(../img/bg-fondo.jpg);
-    padding: 10px;
-
-}
-
-.correo {
-    position: relative;
-    left: 1px;
-}
-
-.boton {
-    font-size: 25px;
-    margin: 2px;
-}
-
-.whatsapp {
-    position: fixed;
-    bottom: 100px;
-    right: 25px;
-}
-
-.whatsapp img {
-    width: 100px;
-}
-
-
-
 
 
 /*---------FOOTER----------*/
@@ -447,7 +438,7 @@ footer img {
     align-items: center;
 }
 
-.carretera img{
+.carretera img {
     border-radius: 10%;
     opacity: 85%;
 }
@@ -484,17 +475,17 @@ footer img {
     justify-content: space-evenly;
     align-items: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:aliceblue;
+    color: aliceblue;
     height: 60vh;
 }
 
-.proyecto h3{
+.proyecto h3 {
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:aliceblue;
+    color: aliceblue;
 }
 
-.proyecto p3{
+.proyecto p3 {
     font-size: 35px;
     padding: 65px;
     margin-bottom: 50px;
@@ -502,7 +493,7 @@ footer img {
 
 /*-----css SOBRE MI -----*/
 
-.misinicios{
+.misinicios {
     width: 100%;
     height: 70vh;
     border: 0.5px white double;
@@ -518,12 +509,12 @@ footer img {
 
 }
 
-.misinicios div h2{
+.misinicios div h2 {
     font-size: 60px;
     color: orangered;
 }
 
-.misinicios div p2{
+.misinicios div p2 {
     font-size: 60px;
     color: aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -533,7 +524,7 @@ footer img {
     align-items: center;
 }
 
-.especializaciones{
+.especializaciones {
     width: 100%;
     height: 60vh;
     background-image: url(../img/bg-fondo_software.jpg);
@@ -546,17 +537,17 @@ footer img {
     justify-content: space-evenly;
     align-items: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:aliceblue;
+    color: aliceblue;
 }
 
-body main section .especializaciones h6{
+body main section .especializaciones h4 {
     font-size: 50px;
     color: orangered;
     border: 3px white double;
     margin-bottom: 50px;
 }
 
-body main section .especializaciones p6{
+body main section .especializaciones p6 {
     font-size: 30px;
     color: rgb(255, 255, 255);
     display: flex;
@@ -567,22 +558,22 @@ body main section .especializaciones p6{
     align-items: center;
 }
 
-body main section .especializaciones div:hover{
+body main section .especializaciones div:hover {
     transform: scale(1.1);
-} 
-
-body main section .especializaciones div{
-    display: flex;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    flex-direction: column;
-    justify-content: left;
-    font-size: 35px;
-    transition:7s;
-    
-    
 }
 
-div .camino{
+body main section .especializaciones div {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 35px;
+    transition: 7s;
+    
+
+}
+
+div .camino {
     text-align: center;
     font-size: 40px;
     padding: 10px;

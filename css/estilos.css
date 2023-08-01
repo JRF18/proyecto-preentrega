@@ -14,8 +14,9 @@ header {
   flex-direction: column;
   padding: 15px; }
   header img {
-    width: 500px;
-    height: 250px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     display: inline-block; }
   header h1 {
     color: orangered;
@@ -36,8 +37,11 @@ header {
         text-decoration: none;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif; }
+        header nav ul li a:hover {
+          color: #00ccff;
+          transition: 0.7s; }
 
-.hero {
+main section .hero {
   width: 100%;
   height: 100vh;
   background-image: url(../img/bg-modelo-camara-.jpg);
@@ -46,14 +50,16 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   align-items: center;
-  text-align: center; }
-  .hero h2 {
+  text-align: center;
+  /* display: grid; */
+  grid-template-columns: repeat(1fr);
+  grid-template-rows: auto; }
+  main section .hero h2 {
     color: aliceblue;
-    font-size: 34px;
+    font-size: 38px;
     border: 3px white double;
-    padding: 1px;
     background-color: orangered; }
-  .hero p {
+  main section .hero p {
     color: aliceblue;
     font-size: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -61,3 +67,42 @@ header {
     padding: 90px;
     display: flex;
     justify-content: space-evenly; }
+
+main section .filmacion div {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/bg-fondo.jpg);
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: center;
+  padding: 35px; }
+  main section .filmacion div p {
+    color: aliceblue;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 25px;
+    padding: 90px;
+    display: flex;
+    justify-content: space-evenly; }
+  main section .filmacion div img {
+    width: 250px;
+    width: 450px;
+    height: 600px;
+    box-shadow: 1px 1px 1px 1px orangered;
+    -webkit-box-shadow: 1px 1px 1px 1px orangered;
+    -moz-box-shadow: 1px 1px 1px 1px orangered; }
+
+main h4 {
+  font-size: 50px;
+  text-align: center;
+  color: orangered;
+  background-color: black; }
+
+main section div .videos {
+  display: flex;
+  justify-content: space-around;
+  background-image: url(../img/bg-fondo.jpg);
+  padding: 10px;
+  flex-wrap: wrap; }
