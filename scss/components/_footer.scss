@@ -1,0 +1,65 @@
+footer{
+    background-image: url(../img/bg-fondo.jpg);
+    div {
+        h5 {
+            font-size: 40px;
+            text-align: center;
+            color: orangered;
+            background-color: black;
+            padding: 2px;
+            border: 3px white double;
+
+        }
+        a {
+            img {
+                width: 100px;
+                height: 100px;
+                position: center;
+                margin: 18px;
+                flex-wrap: wrap;
+                transition: 1s;
+
+            }
+
+        }
+        a {
+            img {
+                width: 100px;
+                height: 100px;
+                position: center;
+                margin: 18px;
+                flex-wrap: wrap;
+                transition: 1s;
+
+            }
+            a {
+                img {
+                    width: 100px;
+                    height: 100px;
+                    position: center;
+                    margin: 18px;
+                    flex-wrap: wrap;
+                    transition: 1s;
+
+                }
+            }
+        }
+        img {
+            width: 150px;
+            height: 50px;
+            position: relative;
+            left: 40%;
+
+        }
+    }
+}
+
+footer{
+    div{
+        img{
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}

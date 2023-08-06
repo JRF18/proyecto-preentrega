@@ -100,11 +100,11 @@ main section img {
     -moz-box-shadow: 1px 1px 1px 1px rgb(255, 69, 0);
 }
 
-body main section h3 {
-    font-size: 60px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: aliceblue;
-    padding: 100px;
+main section h2 {
+    font-size: 50px;
+    text-align: center;
+    color: orangered;
+    background-color: black;
 }
 
 /**INTERACTIVITY**/
@@ -138,7 +138,7 @@ footer div img:hover {
     padding: 35px;
 }
 
-body main h4 {
+.catalogo{
     font-size: 50px;
     text-align: center;
     color: orangered;
@@ -199,6 +199,8 @@ main form div {
     width: 100px;
 }
 
+
+/**CATALOGO DE EQUIPOS**/
 .grid-galeria {
     margin-top: 2px;
     width: 100%;
@@ -275,7 +277,7 @@ footer div a img {
     left: 40%;
 }
 
-footer img {
+footer div img {
     width: 150px;
     height: 50px;
     position: relative;
@@ -448,7 +450,7 @@ footer img {
     color: orangered;
 }
 
-.carretera div p2 {
+.carretera div p{
     font-size: 30px;
     color: aliceblue;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -457,15 +459,36 @@ footer img {
 }
 
 .aereo {
-    background-image: url(../img/bg-fondo.jpg);
+    background-image: url(../img/bg-fondo_drone.jpg);
     display: flex;
     justify-content: space-around;
     padding: 10px;
     flex-wrap: wrap;
 }
 
+
+.servicios-item{
+        background-image: url(../img/bg-fondo_trabajos.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: aliceblue;
+        height: 60vh;
+}
+
+.servicio-item p3 {
+    font-size: 35px;
+    padding: 65px;
+    margin-bottom: 50px;
+}
 .proyecto {
-    background-image: url(../img/bg-fondo_trabajos.jpg);
+    background-image: url(../img/bg-fondo_drone.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -490,6 +513,13 @@ footer img {
     padding: 65px;
     margin-bottom: 50px;
 }
+
+
+
+
+
+
+
 
 /*-----css SOBRE MI -----*/
 
@@ -540,7 +570,7 @@ footer img {
     color: aliceblue;
 }
 
-body main section .especializaciones h4 {
+body main section .especializaciones h3 {
     font-size: 50px;
     color: orangered;
     border: 3px white double;
