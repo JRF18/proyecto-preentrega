@@ -183,8 +183,7 @@ main .especializaciones {
   main .especializaciones h3 {
     font-size: 50px;
     color: orangered;
-    border: 3px white double;
-    margin-bottom: 50px; }
+    border: 3px white double; }
   main .especializaciones div {
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -455,9 +454,9 @@ body footer div {
   body main body main h2 {
     font-size: 20px; }
   body main section .especializaciones h3 {
-    font-size: 35px; }
+    font-size: 30px; }
   body main section .especializaciones div {
-    font-size: 35px; } }
+    font-size: 30px; } }
 
 @media screen and (max-width: 640px) {
   body header {
