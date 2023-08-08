@@ -1,0 +1,18 @@
+
+$colorprimario: white double;
+$colorsecundario: orangered;
+$colorterciario:rgb(0, 204, 255);
+
+
+
+
+@mixin flex($flex, $direction, $align){
+    display: $flex;
+    flex-direction: $direction;
+    align-items: $align;
+}
+
+.form{
+    @include flex(flex, row, right)
+
+}

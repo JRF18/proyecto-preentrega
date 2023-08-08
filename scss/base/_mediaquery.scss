@@ -1,0 +1,327 @@
+@media screen and (max-width:1200px) {
+
+    body {
+        main {
+            .grid-galeria {
+                grid-template-columns: repeat(2, 1fr);
+                grid-auto-rows: 220px;
+
+                .grid-item {
+                    grid-column: span 1;
+                    grid-row: span 1;
+                }
+
+                .img-8 {
+                    grid-column: span 2;
+                }
+            }
+        }
+    }
+
+    body {
+        main {
+            section {
+                p {
+                    font-size: 44px;
+                    margin: 25px;
+                    padding: 20px;
+                }
+            }
+
+        }
+
+    }
+
+    .whatsapp {
+        display: none;
+    }
+
+    .creando {
+        display: none;
+    }
+
+    body {
+        main {
+            .hero {
+                p {
+                    padding: 10px;
+                }
+
+            }
+        }
+    }
+
+    body {
+        .form {
+            font-size: 14px;
+        }
+    }
+}
+
+body {
+    main {
+        .filmacion {
+            div {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    }
+}
+
+body {
+    footer {
+        div {
+            flex-direction: column;
+        }
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    body {
+        header {
+            img {
+                width: 80%;
+                max-width: 300px;
+                height: auto;
+                display: inline-block;
+            }
+
+            nav {
+                .navegacion {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    body {
+        main {
+            .carretera {
+                flex-direction: column;
+            }
+        }
+    }
+
+    body {
+        main {
+            .hero {
+                height: 80%;
+
+            }
+
+            .interaccion {
+                font-size: 50px;
+            }
+        }
+    }
+
+    body {
+        main {
+            section {
+                p {
+                    font-size: 44px;
+                    margin: 25px;
+                    padding: 50px;
+                }
+
+                img {
+                    width: 300px;
+                    height: 350px;
+                }
+            }
+        }
+    }
+
+    body {
+        main {
+            form {
+                div {
+                    h6 {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+
+    body {
+        footer {
+            div {
+                flex-direction: column;
+
+                a {
+                    img {
+                        margin: 4px;
+                        width: 45px;
+                        height: 45px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:660px) {
+    body {
+        main {
+            .grid-galeria {
+                grid-template-columns: 1fr;
+
+                .grid-item {
+                    grid-column: span 1;
+                    grid-row: span 1;
+                }
+            }
+        }
+    }
+
+    body {
+        main {
+            .misinicios {
+                div {
+                    h2 {
+                        font-size: 30px;
+                    }
+
+                    p2 {
+                        font-size: 30px;
+                    }
+                }
+            }
+
+            .servicio-item {
+                width: 100%;
+
+                h4 {
+                    font-size: 30px;
+                }
+
+                p3 {
+                    font-size: 27px;
+                }
+            }
+
+            body {
+                main {
+                    h2 {
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            section {
+                .especializaciones {
+                    h3 {
+                        font-size: 35px;
+                    }
+
+                    div {
+                        font-size: 35px;
+                    } 
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:640px) {
+
+    body {
+        header {
+            position: static;
+        }
+    }
+
+    body {
+        main {
+
+            .hero {
+                h2 {
+                    font-size: 25px
+                }
+
+                height: 80%;
+
+                p {
+                    font-size: 25px;
+                }
+
+
+            }
+
+            .filmacion {
+                div {
+                    img {
+                        width: 250px;
+                        height: 400px;
+                    }
+
+                    .interaccion {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    body {
+        footer {
+            div {
+                img {
+                    .creando {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    body {
+        main {
+            .misinicios {
+                div {
+                    h2 {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    body {
+        main {
+            .carretera {
+                div {
+                    padding: 10px;
+
+                    h2 {
+                        font-size: 25px;
+                    }
+
+                    p2 {
+                        font-size: 20px;
+                    }
+                }
+
+                img {
+                    width: 250px;
+                    height: 400px;
+                }
+            }
+
+            .proyecto {
+                h4 {
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .form {
+            text-align: center;
+        }
+    }
+}

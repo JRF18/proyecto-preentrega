@@ -200,7 +200,7 @@ main form div {
 }
 
 
-/**CATALOGO DE EQUIPOS**/
+/*---------EQUIPOS----------*/
 .grid-galeria {
     margin-top: 2px;
     width: 100%;
@@ -599,8 +599,6 @@ body main section .especializaciones div {
     justify-content: center;
     font-size: 35px;
     transition: 7s;
-    
-
 }
 
 div .camino {

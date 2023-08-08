@@ -4,10 +4,10 @@ footer{
         h5 {
             font-size: 40px;
             text-align: center;
-            color: orangered;
+            color: $colorsecundario;
             background-color: black;
             padding: 2px;
-            border: 3px white double;
+            border: 3px $colorprimario;
 
         }
         a {
