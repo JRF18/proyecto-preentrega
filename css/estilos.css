@@ -489,6 +489,8 @@ body footer div {
   body main .carretera img {
     width: 250px;
     height: 400px; }
+  body main .aereo {
+    display: none; }
   body main .proyecto h4 {
     font-size: 30px; }
   body .form {
